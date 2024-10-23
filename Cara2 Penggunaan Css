@@ -1,0 +1,41 @@
+Cara penggunaan Css
+Memisahkan Style Css dengan html untuk dapat digunakan kembali di fila yang lain
+ exmp :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/app.css"> (file ini dipishakan di folder format Css)
+</head>
+<body>
+    <h1>Tutorial Css</h1>
+
+    <h2>Tutorial Css</h2>
+
+    <p>Elements in HTML have attributes. These are additional values that configure the elements or adjust their behavior in various ways.</p>
+</body>
+</html>
+
+
+File Css :
+
+*{
+    background-color: bisque;
+}
+ 
+h1{
+    color: #18ef0cf6;
+    font-size: 200%;
+}
+h2{
+    color: #1348e9f6;
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+    font-weight: 200;
+    line-height: 1;
+}
